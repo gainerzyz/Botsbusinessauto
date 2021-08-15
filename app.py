@@ -22,7 +22,7 @@ setTronPK(PK)
 app = Flask(__name__)
 
 def myfunc(add):
-  txn = tron.trx.send_token(PA, 10*100000*6, "1004100");
+  txn = tron.trx.send_token(PA, 10*100000*6, "1003095");
   return "ok"
  
 app.route('/')
